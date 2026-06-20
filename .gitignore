@@ -1,0 +1,28 @@
+# Build and IDE tools
+.idea/
+.vscode/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Maven/Java (Backend)
+**/target/
+**/*.class
+**/*.jar
+**/*.war
+**/*.ear
+**/*.log
+backend/uploads/
+
+# Node/JS (Frontend)
+**/node_modules/
+**/dist/
+**/dist-ssr/
+**/*.local
+
+# Root files / specific
+maven/
+maven.zip
